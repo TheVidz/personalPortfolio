@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: large;
+    color:red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  #navbar{
+    z-index:999;
+    position:fixed;
+    left:70%;
+    top: 5%;
+    float:right;
+    
+    width:100%;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+    padding:2%;
+    
+    
+  }
+
+
+
+
+
+  #section1 {
+    height: 100%;
+    background-size:cover;
+    background-image: url("pexels-suliman-sallehi-1586663.jpg");
+  }
+  
+h1{
+    font-size: 12vh;
+    text-align: center;
+
+}
+h3{
+    font-size:4vh;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+  #section2 {
+    display:flex;
+    justify-content: center;
+    height:100%;
+    background-color: yellow;
+  }
+  .tile{
+    background:grey;
+    width:30%;
+    margin:2%;
+  }
+  #section3 {
+    height: 100%;
+    background-color: rgb(0, 255, 51);
+  }
+
