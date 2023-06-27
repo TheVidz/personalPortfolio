@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-size: large;
-    color:red;
+    color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -15,8 +15,9 @@ html {
     left:70%;
     top: 5%;
     float:right;
-    
+    background:black;
     width:100%;
+    padding:10px;
   }
   a{
     text-decoration: none;
@@ -34,16 +35,17 @@ html {
     height: 100%;
     background-size:cover;
     background-image: url("pexels-suliman-sallehi-1586663.jpg");
+    vertical-align: text-bottom;
   }
   
 h1{
     font-size: 12vh;
-    text-align: center;
+    text-align: right;
 
 }
 h3{
     font-size:4vh;
-    text-align:center;
+    text-align:right;
 }
 
 
